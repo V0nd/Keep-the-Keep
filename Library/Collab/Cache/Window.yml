@@ -33,17 +33,19 @@ MonoBehaviour:
     - Assets/Scenes/End.unity.meta
     - Assets/Scenes/Knight Hall.unity
     - Assets/Scenes/Mystic.unity
+    - Assets/Scenes/Start Menu.unity
     - Assets/Scripts/Machine/Machine.cs
     - Assets/Scripts/Machine/MachineController.cs
     - Assets/Scripts/PlayerController.cs
     - Assets/Scripts/Sign.cs
     - Assets/Scripts/UI/PauseMenu.cs
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
     - Packages/manifest.json
     - Packages/packages-lock.json
     - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

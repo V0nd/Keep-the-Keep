@@ -56,10 +56,10 @@ public class Machine : MachineController
             timeLeft -= Time.deltaTime;
             timeBar.fillAmount = timeLeft / maxTime;
         }
-        else if(timeLeft <= 0)
-        {
-            LevelFailed();
-        }
+        //else if(timeLeft <= 0)
+        //{
+        //    LevelFailed();
+        //}
     }
 
     private void OnTriggerEnter2D(Collider2D other)
