@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2050867380531500985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2050867380531500984}
+  - component: {fileID: 2050867380531500991}
+  m_Layer: 0
+  m_Name: Oil Barrel Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2050867380531500984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050867380531500985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2050867379702009142}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050867380531500991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050867380531500985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99e9f5992897234d85ac55b3434d3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableObject: {fileID: 2050867379702009138}
+  inventory: {fileID: 11400000, guid: 55345ddcb4d298b469d3e77ce8c17962, type: 2}
+  questionMark: {fileID: 3922566056327708674}
+  oven: {fileID: 0}
+--- !u!1001 &4829697092103667982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2050867380531500984}
+    m_Modifications:
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.313
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.826
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877175776412732476, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+        type: 3}
+      propertyPath: m_Name
+      value: OilBarrel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75, type: 3}
+--- !u!1 &2050867379702009138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6877175776412732476, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+    type: 3}
+  m_PrefabInstance: {fileID: 4829697092103667982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2050867379702009142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6877175776412732472, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+    type: 3}
+  m_PrefabInstance: {fileID: 4829697092103667982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3922566056327708674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8460371307995365644, guid: 8ad2086f8f9b24f49a5a5fc83ec69f75,
+    type: 3}
+  m_PrefabInstance: {fileID: 4829697092103667982}
+  m_PrefabAsset: {fileID: 0}

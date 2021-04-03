@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: 2ddd34c5f47b7f9499e5c4ad90cb231c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3437524419673220020
+    second: Broken Ladder_0
+  - first:
+      213: 4349296668745394197
+    second: Broken Ladder_1
+  - first:
+      213: -9091825126753676115
+    second: Broken Ladder_2
+  - first:
+      213: -4283446470930662604
+    second: Broken Ladder_3
+  - first:
+      213: -4526076890787133489
+    second: Broken Ladder_4
+  - first:
+      213: -2053626095460747909
+    second: Broken Ladder_5
+  - first:
+      213: 4988493085980549506
+    second: Broken Ladder_6
+  - first:
+      213: 3077734512471949654
+    second: Broken Ladder_7
+  - first:
+      213: -6686839984186005665
+    second: Broken Ladder_8
+  - first:
+      213: -2296677113222738877
+    second: Broken Ladder_9
+  - first:
+      213: -8037655837359023494
+    second: Broken Ladder_10
+  - first:
+      213: 4008120728250756313
+    second: Broken Ladder_11
+  - first:
+      213: -1462093213806656225
+    second: Broken Ladder_12
+  - first:
+      213: -3379637708088922327
+    second: Broken Ladder_13
+  - first:
+      213: -4593105502442077875
+    second: Broken Ladder_14
+  - first:
+      213: 6924003689765068365
+    second: Broken Ladder_15
+  - first:
+      213: -8200713594302437804
+    second: Broken Ladder_16
+  - first:
+      213: 5866820602405387466
+    second: Broken Ladder_17
+  - first:
+      213: 412546469569157255
+    second: Broken Ladder_18
+  - first:
+      213: -4421955068322059630
+    second: Broken Ladder_19
+  - first:
+      213: -2251112924478143693
+    second: Broken Ladder_20
+  - first:
+      213: 5175090937962241853
+    second: Broken Ladder_21
+  - first:
+      213: -9181575100133483951
+    second: Broken Ladder_22
+  - first:
+      213: -3164595222403879696
+    second: Broken Ladder_23
+  - first:
+      213: 4780688848085881628
+    second: Broken Ladder_24
+  - first:
+      213: -2219162435297827180
+    second: Broken Ladder_25
+  - first:
+      213: 3988931152869056541
+    second: Broken Ladder_26
+  - first:
+      213: 8839517584871982881
+    second: Broken Ladder_27
+  - first:
+      213: -1073062824563119738
+    second: Broken Ladder_28
+  - first:
+      213: -654223787822743691
+    second: Broken Ladder_29
+  - first:
+      213: -3300551195141796502
+    second: Broken Ladder_30
+  - first:
+      213: 1095288841446298732
+    second: Broken Ladder_31
+  - first:
+      213: -4979344193738557497
+    second: Broken Ladder_32
+  - first:
+      213: -961395363413552146
+    second: Broken Ladder_33
+  - first:
+      213: 1333119206258907404
+    second: Broken Ladder_34
+  - first:
+      213: 4355201624848080582
+    second: Broken Ladder_35
+  - first:
+      213: -4758242661708384678
+    second: Broken Ladder_36
+  - first:
+      213: 4916159510255177103
+    second: Broken Ladder_37
+  - first:
+      213: -5300625548489830564
+    second: Broken Ladder_38
+  - first:
+      213: 4393176492676254100
+    second: Broken Ladder_39
+  - first:
+      213: -699744640488146792
+    second: Broken Ladder_40
+  - first:
+      213: 43888622588485712
+    second: Broken Ladder_41
+  - first:
+      213: -6532132793137092885
+    second: Broken Ladder_42
+  - first:
+      213: -4080442463266869090
+    second: Broken Ladder_43
+  - first:
+      213: -9088062088143221880
+    second: Broken Ladder_44
+  - first:
+      213: 5708256080102671310
+    second: Broken Ladder_45
+  - first:
+      213: 6629919522482401778
+    second: Broken Ladder_46
+  - first:
+      213: 9094863039496962155
+    second: Broken Ladder_47
+  - first:
+      213: 5825884277608937457
+    second: Broken Ladder_48
+  - first:
+      213: 6656772664151141265
+    second: Broken Ladder_49
+  - first:
+      213: 684552414573960379
+    second: Broken Ladder_50
+  - first:
+      213: 6474286052554280121
+    second: Broken Ladder_51
+  - first:
+      213: 7439863134017647131
+    second: Broken Ladder_52
+  - first:
+      213: 2562034027066350890
+    second: Broken Ladder_53
+  - first:
+      213: -8056689418756391391
+    second: Broken Ladder_54
+  - first:
+      213: 344761367085213212
+    second: Broken Ladder_55
+  - first:
+      213: -1663453042118941752
+    second: Broken Ladder_56
+  - first:
+      213: -7715802922074626431
+    second: Broken Ladder_57
+  - first:
+      213: 4960303141165537444
+    second: Broken Ladder_58
+  - first:
+      213: 4268639501221392039
+    second: Broken Ladder_59
+  - first:
+      213: 6119427938808791445
+    second: Broken Ladder_60
+  - first:
+      213: -1255956137708100303
+    second: Broken Ladder_61
+  - first:
+      213: 9012868635019401066
+    second: Broken Ladder_62
+  - first:
+      213: 5080826550616414675
+    second: Broken Ladder_63
+  - first:
+      213: -6593326988908730163
+    second: Broken Ladder_64
+  - first:
+      213: 3799960490704097553
+    second: Broken Ladder_65
+  - first:
+      213: 6767470910497111036
+    second: Broken Ladder_66
+  - first:
+      213: 3866346236956062634
+    second: Broken Ladder_67
+  - first:
+      213: 4466277844484806309
+    second: Broken Ladder_68
+  - first:
+      213: -1842327010536569739
+    second: Broken Ladder_69
+  - first:
+      213: 8723690383287065187
+    second: Broken Ladder_70
+  - first:
+      213: -3548522687849294212
+    second: Broken Ladder_71
+  - first:
+      213: 1907986697195037728
+    second: Broken Ladder_72
+  - first:
+      213: 633025019042209461
+    second: Broken Ladder_73
+  - first:
+      213: 4815194709863240059
+    second: Broken Ladder_74
+  - first:
+      213: -8142000922930403537
+    second: Broken Ladder_75
+  - first:
+      213: -4197929399775423835
+    second: Broken Ladder_76
+  - first:
+      213: -2748963082568517103
+    second: Broken Ladder_77
+  - first:
+      213: -3011502325455325449
+    second: Broken Ladder_78
+  - first:
+      213: 932841549315262817
+    second: Broken Ladder_79
+  - first:
+      213: -1575703446375287732
+    second: Broken Ladder_80
+  - first:
+      213: -8799988253591472625
+    second: Broken Ladder_81
+  - first:
+      213: 3994851307129143560
+    second: Broken Ladder_82
+  - first:
+      213: -7494554668777404814
+    second: Broken Ladder_83
+  - first:
+      213: -205567251128054201
+    second: Broken Ladder_84
+  - first:
+      213: -8916528771148134233
+    second: Broken Ladder_85
+  - first:
+      213: -6908038964960748478
+    second: Broken Ladder_86
+  - first:
+      213: 6865630837181207157
+    second: Broken Ladder_87
+  - first:
+      213: 7937119992430826611
+    second: Broken Ladder_88
+  - first:
+      213: 640198573253286081
+    second: Broken Ladder_89
+  - first:
+      213: -1616438193123618107
+    second: Broken Ladder_90
+  - first:
+      213: 6144479924471040550
+    second: Broken Ladder_91
+  - first:
+      213: -6781888550481961403
+    second: Broken Ladder_92
+  - first:
+      213: -3417400061680528431
+    second: Broken Ladder_93
+  - first:
+      213: 6419529674157593819
+    second: Broken Ladder_94
+  - first:
+      213: 761468127928609328
+    second: Broken Ladder_95
+  - first:
+      213: -5378345119845200272
+    second: Broken Ladder_96
+  - first:
+      213: 912587809444197859
+    second: Broken Ladder_97
+  - first:
+      213: 2658959001832120381
+    second: Broken Ladder_98
+  - first:
+      213: -9092240708487417546
+    second: Broken Ladder_99
+  - first:
+      213: -1243979881461465037
+    second: Broken Ladder_100
+  - first:
+      213: 3536774371956227961
+    second: Broken Ladder_101
+  - first:
+      213: 578218097560537814
+    second: Broken Ladder_102
+  - first:
+      213: -6185175923096156620
+    second: Broken Ladder_103
+  - first:
+      213: 4457924483629939218
+    second: Broken Ladder_104
+  - first:
+      213: -2279911766919913600
+    second: Broken Ladder_105
+  - first:
+      213: 1327119992853313425
+    second: Broken Ladder_106
+  - first:
+      213: -1125934467209100678
+    second: Broken Ladder_107
+  - first:
+      213: -2771494902215220194
+    second: Broken Ladder_108
+  - first:
+      213: -7571027054350077021
+    second: Broken Ladder_109
+  - first:
+      213: 5856302952272955447
+    second: Broken Ladder_110
+  - first:
+      213: 4646208405172633208
+    second: Broken Ladder_111
+  - first:
+      213: 8239844584617721596
+    second: Broken Ladder_112
+  - first:
+      213: -974236097228287158
+    second: Broken Ladder_113
+  - first:
+      213: 3771499973971754051
+    second: Broken Ladder_114
+  - first:
+      213: 2805874181720252737
+    second: Broken Ladder_115
+  - first:
+      213: -6668494698664352376
+    second: Broken Ladder_116
+  - first:
+      213: 6107318053313349720
+    second: Broken Ladder_117
+  - first:
+      213: 1207901816250216926
+    second: Broken Ladder_118
+  - first:
+      213: 4671959429718106445
+    second: Broken Ladder_119
+  - first:
+      213: -4443595789273805041
+    second: Broken Ladder_120
+  - first:
+      213: 5028143427268980456
+    second: Broken Ladder_121
+  - first:
+      213: -4488811959041493900
+    second: Broken Ladder_122
+  - first:
+      213: 6042804344884896014
+    second: Broken Ladder_123
+  - first:
+      213: 2168746524291951915
+    second: Broken Ladder_124
+  - first:
+      213: -3217228213707484586
+    second: Broken Ladder_125
+  - first:
+      213: 259611868685007963
+    second: Broken Ladder_126
+  - first:
+      213: -1905491880669475167
+    second: Broken Ladder_127
+  - first:
+      213: 7428022880432508146
+    second: Broken Ladder_128
+  - first:
+      213: -6285997748628236016
+    second: Broken Ladder_129
+  - first:
+      213: 7709042932102979911
+    second: Broken Ladder_130
+  - first:
+      213: 5460696233923818301
+    second: Broken Ladder_131
+  - first:
+      213: 1791013810967191446
+    second: Broken Ladder_132
+  - first:
+      213: 5919883343824616117
+    second: Broken Ladder_133
+  - first:
+      213: -7351093319779648614
+    second: Broken Ladder_134
+  - first:
+      213: -6671067794777879689
+    second: Broken Ladder_135
+  - first:
+      213: -5488717289185385282
+    second: Broken Ladder_136
+  - first:
+      213: 5065752695557174569
+    second: Broken Ladder_137
+  - first:
+      213: 5383448299784845007
+    second: Broken Ladder_138
+  - first:
+      213: -3127512262131945344
+    second: Broken Ladder_139
+  - first:
+      213: -2266881693223989120
+    second: Broken Ladder_140
+  - first:
+      213: -716806039336023123
+    second: Broken Ladder_141
+  - first:
+      213: 6774275087436275444
+    second: Broken Ladder_142
+  - first:
+      213: 1663720111090513872
+    second: Broken Ladder_143
+  - first:
+      213: -620367902637336302
+    second: Broken Ladder_144
+  - first:
+      213: 5855696535833284553
+    second: Broken Ladder_145
+  - first:
+      213: 4966824307811852952
+    second: Broken Ladder_146
+  - first:
+      213: 5433641023149466722
+    second: Broken Ladder_147
+  - first:
+      213: 5020370826417108336
+    second: Broken Ladder_148
+  - first:
+      213: 8046743752605368784
+    second: Broken Ladder_149
+  - first:
+      213: 464247836637589276
+    second: Broken Ladder_150
+  - first:
+      213: -4964494720868283206
+    second: Broken Ladder_151
+  - first:
+      213: 8106297771824297357
+    second: Broken Ladder_152
+  - first:
+      213: -557516610624316386
+    second: Broken Ladder_153
+  - first:
+      213: -4377739650470544465
+    second: Broken Ladder_154
+  - first:
+      213: -5303522950032572412
+    second: Broken Ladder_155
+  - first:
+      213: -1550948375865835355
+    second: Broken Ladder_156
+  - first:
+      213: 881442375179200495
+    second: Broken Ladder_157
+  - first:
+      213: -8782660347314581169
+    second: Broken Ladder_158
+  - first:
+      213: 6225269558580993196
+    second: Broken Ladder_159
+  - first:
+      213: -8471086373582110330
+    second: Broken Ladder_160
+  - first:
+      213: 2140767195534710370
+    second: Broken Ladder_161
+  - first:
+      213: -5826333491315954089
+    second: Broken Ladder_162
+  - first:
+      213: -2611734404037164295
+    second: Broken Ladder_163
+  - first:
+      213: 5757873950430511610
+    second: Broken Ladder_164
+  - first:
+      213: -6302940304329153549
+    second: Broken Ladder_165
+  - first:
+      213: 7415465540127711274
+    second: Broken Ladder_166
+  - first:
+      213: 556336696644071159
+    second: Broken Ladder_167
+  - first:
+      213: 7735899390421978315
+    second: Broken Ladder_168
+  - first:
+      213: -8019092093839233073
+    second: Broken Ladder_169
+  - first:
+      213: 1057379809057778042
+    second: Broken Ladder_170
+  - first:
+      213: 1487971712308010921
+    second: Broken Ladder_171
+  - first:
+      213: -3419769313646102783
+    second: Broken Ladder_172
+  - first:
+      213: 5395209291701558422
+    second: Broken Ladder_173
+  - first:
+      213: 5701083529941775174
+    second: Broken Ladder_174
+  - first:
+      213: -3408491661564658440
+    second: Broken Ladder_175
+  - first:
+      213: -8006446116884120086
+    second: Broken Ladder_176
+  - first:
+      213: 3782203475821950205
+    second: Broken Ladder_177
+  - first:
+      213: -8732626499028401630
+    second: Broken Ladder_178
+  - first:
+      213: 5102048332259590530
+    second: Broken Ladder_179
+  - first:
+      213: 8627014406568430500
+    second: Broken Ladder_180
+  - first:
+      213: -8783324557417260532
+    second: Broken Ladder_181
+  - first:
+      213: -6100514083645391998
+    second: Broken Ladder_182
+  - first:
+      213: 8595388298098201104
+    second: Broken Ladder_183
+  - first:
+      213: 1245225653289569582
+    second: Broken Ladder_184
+  - first:
+      213: -2210014974164708955
+    second: Broken Ladder_185
+  - first:
+      213: 4591246435967834735
+    second: Broken Ladder_186
+  - first:
+      213: 4142409710838777154
+    second: Broken Ladder_187
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 32
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 32
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Broken Ladder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b36a553f3a84bf20800000000000000
+      internalID: 3437524419673220020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken Ladder_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518eb53d64ecb5c30800000000000000
+      internalID: 4349296668745394197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
