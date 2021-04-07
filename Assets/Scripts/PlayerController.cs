@@ -6,14 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     public LayerMask platformLayerMask;
 
-
     [Header("Movement")]
     private float moveSpeed;
     public float originalValueOfSpeed;
-    //private float inputHorizontal;
     private float coyoteCounter;
     private float jumpBufferCounter;
-
 
     private bool onMovingPlatform = false;
     public GameObject movingPlatform;
@@ -27,6 +24,7 @@ public class PlayerController : MonoBehaviour
     [Header("Particle Effects")]
     public ParticleSystem impactDust;
     private bool wasOnGround;
+    private bool onRotatingPlatform;
 
     [Header("Sounds")]
     public AudioManager audioManager;
@@ -38,7 +36,6 @@ public class PlayerController : MonoBehaviour
     //References
     private Rigidbody2D myRigidbody;
     private Animator anim;
-    private SpriteRenderer sprite;
     private BoxCollider2D boxCollider2d;
 
 
@@ -46,7 +43,6 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         boxCollider2d = GetComponent<BoxCollider2D>();
         audioManager = FindObjectOfType<AudioManager>();
@@ -57,7 +53,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Dusts();
+        Dusts();
         CoyoteTimeCheck();
         AnimationState();
         anim.SetInteger("state", (int)state);
@@ -142,8 +138,8 @@ public class PlayerController : MonoBehaviour
             audioManager.Play("jumpLanding");
             impactDust.gameObject.SetActive(true);
             impactDust.Stop();
-            impactDust.transform.position = this.gameObject.transform.position;
-            impactDust.Play();
+            impactDust.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y - 0.5f, this.gameObject.transform.position.z);
+            //impactDust.Play();
         }
 
         wasOnGround = IsGrounded();
@@ -193,6 +189,11 @@ public class PlayerController : MonoBehaviour
             movingPlatform = collision.gameObject;
             onMovingPlatform = true;
         }
+
+        if(collision.gameObject.CompareTag("Rotating Platform"))
+        {
+            impactDust.gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -201,6 +202,11 @@ public class PlayerController : MonoBehaviour
         {
             movingPlatform = null;
             onMovingPlatform = false;
+        }
+
+        if(collision.gameObject.CompareTag("Rotating Platform"))
+        {
+            //impactDust.gameObject.SetActive(true);
         }
     }
 

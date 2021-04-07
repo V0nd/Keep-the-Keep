@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7438818314506446860}
   m_Layer: 8
   m_Name: rotatePlatform
-  m_TagString: Untagged
+  m_TagString: Rotating Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.3971639, y: 1.8994355}
+  m_ConnectedAnchor: {x: 9.722836, y: -1.0105643}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

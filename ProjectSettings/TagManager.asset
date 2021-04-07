@@ -7,6 +7,7 @@ TagManager:
   - Border
   - Horizontal Platform
   - Moving Platform
+  - Rotating Platform
   layers:
   - Default
   - TransparentFX
