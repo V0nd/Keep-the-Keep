@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3610622164466772993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3610622164466772995}
+  - component: {fileID: 3610622164466772992}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3610622164466772995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3610622164466772993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12707591, y: 19.151987, z: -2.2851562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3610622164466772992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3610622164466772993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5974b1229cfadc847bb02bd2bd1a5b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: footstep
+    audioClip: {fileID: 8300000, guid: 8668af0f8aa4c1f449734df075108253, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.1
+    pitch: 1
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: jump
+    audioClip: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: rockBreak
+    audioClip: {fileID: 8300000, guid: dedc2617ec090db4796ff6ec05ad51a1, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.3
+    pitch: 1
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: jumpLanding
+    audioClip: {fileID: 8300000, guid: f18d52bfcdef4d44f9e0b180282dfa6e, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: oilPickUp
+    audioClip: {fileID: 8300000, guid: 5590e43f2f92d7b40921349f03867299, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: coalPickUp
+    audioClip: {fileID: 8300000, guid: 2a613e37d9fdf4c47b22803e585a5b70, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.2
+    pitch: 1
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: dropItem
+    audioClip: {fileID: 8300000, guid: 496877cd1b19579489841904cf365812, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
+    audioSource: {fileID: 0}
+  - name: engine
+    audioClip: {fileID: 0}
+    loop: 1
+    playOnAwake: 1
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    audioSource: {fileID: 0}

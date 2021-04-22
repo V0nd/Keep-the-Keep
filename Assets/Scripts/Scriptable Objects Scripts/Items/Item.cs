@@ -86,10 +86,10 @@ public class Item : MonoBehaviour
     {
         if (Input.GetButtonDown("Drop") && inventory.Container.Count == 1 && oven.currentItem != null)
         {
-            Debug.Log("Unset");
             oven.currentItem.gameObject.SetActive(true);
             questionMark.SetActive(false);
             dropping = true;
+            audioManager.Play("dropItem");
         }
     }
 

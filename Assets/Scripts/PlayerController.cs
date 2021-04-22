@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     [Header("Particle Effects")]
     public ParticleSystem impactDust;
     private bool wasOnGround;
+    private bool impacting = true;
     private bool onRotatingPlatform;
 
     [Header("Sounds")]
@@ -133,13 +134,13 @@ public class PlayerController : MonoBehaviour
 
     private void Dusts()
     {
-        if(IsGrounded() && !wasOnGround)
+        if(IsGrounded() && !wasOnGround && !boxCollider2d.CompareTag("Rotating Platform"))
         {
             audioManager.Play("jumpLanding");
             impactDust.gameObject.SetActive(true);
             impactDust.Stop();
             impactDust.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y - 0.5f, this.gameObject.transform.position.z);
-            //impactDust.Play();
+            impactDust.Play();
         }
 
         wasOnGround = IsGrounded();
@@ -192,7 +193,7 @@ public class PlayerController : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Rotating Platform"))
         {
-            impactDust.gameObject.SetActive(false);
+            impacting = false;
         }
     }
 
@@ -206,7 +207,7 @@ public class PlayerController : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Rotating Platform"))
         {
-            //impactDust.gameObject.SetActive(true);
+            impacting = true;
         }
     }
 

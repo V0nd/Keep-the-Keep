@@ -37,7 +37,6 @@ public class DisplayInventory : MonoBehaviour
         if (Input.GetButtonDown("Drop") && inventory.Container.Count == 1 && transform.childCount == 1)
         {
             Destroy(transform.GetChild(0).gameObject);
-            Debug.Log("Cleaned");
         }
     }
 

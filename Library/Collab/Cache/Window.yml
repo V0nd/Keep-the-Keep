@@ -16,6 +16,8 @@ MonoBehaviour:
     m_Keys:
     - Assets/Art/Mystic/rotatePlatform.prefab
     - Assets/Art/UI & Marks/Thermometer Fill 1.png.meta
+    - Assets/Prefabs/Audio Manager.prefab
+    - Assets/Prefabs/Audio Manager.prefab.meta
     - Assets/Prefabs/Machines.meta
     - Assets/Prefabs/Machines/Engine.prefab
     - Assets/Prefabs/Machines/Engine.prefab.meta
@@ -38,8 +40,14 @@ MonoBehaviour:
     - Assets/Scripts/Machine/Machine.cs
     - Assets/Scripts/Machine/MachineController.cs
     - Assets/Scripts/PlayerController.cs
+    - Assets/Scripts/Scriptable Objects Scripts/Inventory/DisplayInventory.cs
+    - Assets/Scripts/Scriptable Objects Scripts/Items/Item.cs
     - Assets/Scripts/Sign.cs
     - Assets/Scripts/UI/PauseMenu.cs
+    - Assets/Sounds/dropLeather 1.ogg
+    - Assets/Sounds/dropLeather 1.ogg.meta
+    - Assets/Sounds/dropLeather.ogg
+    - Assets/Sounds/dropLeather.ogg.meta
     - Assets/Sounds/sfx100v2_misc_05.ogg
     - Assets/Sounds/sfx100v2_misc_05.ogg.meta
     - Assets/Sounds/sfx100v2_misc_07.ogg
@@ -59,7 +67,7 @@ MonoBehaviour:
     - ProjectSettings/ProjectVersion.txt
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

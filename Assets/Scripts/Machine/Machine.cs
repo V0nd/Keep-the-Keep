@@ -82,15 +82,6 @@ public class Machine : MachineController
     {
         if (Input.GetButtonDown("Grab") && timeLeft < maxTime && inventory.Container.Count >= 1 && inventory.Container[0].item.name == nameOfNeededItem)
         {
-            //if (inventory.Container[0].item.name == "Coal")
-            //{
-            //    coalCount++;
-            //}
-            //else if (inventory.Container[0].item.name == "Oil")
-            //{
-            //    oilCount++;
-            //}
-
             fillCount++;
             timeLeft += plusItemTime;
 
