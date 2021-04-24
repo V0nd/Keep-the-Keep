@@ -54,8 +54,8 @@ MonoBehaviour:
   inv: {fileID: 0}
   linearTimer: {fileID: 0}
   timeBar: {fileID: 0}
-  maxTime: 150
-  plusItemTime: 40
+  maxTime: 250
+  plusItemTime: 50
   nameOfNeededItem: Coal
   fillCount: 0
   itemCount: 1

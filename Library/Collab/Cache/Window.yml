@@ -37,6 +37,11 @@ MonoBehaviour:
     - Assets/Scenes/Knight Hall.unity
     - Assets/Scenes/Mystic.unity
     - Assets/Scenes/Start Menu.unity
+    - Assets/Scenes/Tutorial.unity
+    - Assets/Scenes/Tutorial.unity.meta
+    - Assets/Scripts/BrakingPlatform.cs
+    - Assets/Scripts/EndMenu.cs
+    - Assets/Scripts/EndMenu.cs.meta
     - Assets/Scripts/Machine/Machine.cs
     - Assets/Scripts/Machine/MachineController.cs
     - Assets/Scripts/PlayerController.cs
@@ -67,7 +72,7 @@ MonoBehaviour:
     - ProjectSettings/ProjectVersion.txt
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -12,6 +12,8 @@ public class MachineController : MonoBehaviour
 
     public List<Machine> machines = new List<Machine>();
 
+    public GameObject failMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,14 +23,23 @@ public class MachineController : MonoBehaviour
     void Update()
     {
         NextScene();
+        LevelEnd();
     }
 
     void NextScene()
     {
         if(machines[0].fillCount == coalCount && machines[1].fillCount == oilCount)
         {
-            Debug.Log("NextScene");
             SceneManager.LoadScene(nextScene);
+        }
+    }
+
+    void LevelEnd()
+    {
+        if(machines[0].failLevel || machines[1].failLevel)
+        {
+            failMenu.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }

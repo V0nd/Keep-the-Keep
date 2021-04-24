@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Machine : MachineController
+public class Machine : MonoBehaviour
 {
     public string machineName;
     public DisplayInventory inv;
@@ -21,6 +21,7 @@ public class Machine : MachineController
     private bool fill;
     [SerializeField] public int fillCount = 0;
     public int itemCount = 1;
+    public bool failLevel = false;
 
     [Header("References")]
     public AudioManager audioManager;
@@ -56,10 +57,10 @@ public class Machine : MachineController
             timeLeft -= Time.deltaTime;
             timeBar.fillAmount = timeLeft / maxTime;
         }
-        //else if(timeLeft <= 0)
-        //{
-        //    LevelFailed();
-        //}
+        else if (timeLeft <= 0)
+        {
+            failLevel = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -116,35 +117,5 @@ public class Machine : MachineController
     {
         SceneManager.LoadScene("Start Menu");
     }
-
-    /*private void LoopSounds()
-    {
-        if(machineName == "Engine")
-        {
-            audioManager.Play("engine");
-        }
-        else if(machineName == "Oven")
-        {
-
-        }
-
-                    if(inventory.Container[0].item.name == "Coal")
-                {
-                    coalCount++;
-                }
-                else if(inventory.Container[0].item.name == "Oil")
-                {
-                    oilCount++;
-                }
-
-                if(inventory.Container[0].item.name == nameOfNeededItem)
-            {
-                fillCount++;
-                timeLeft += plusItemTime;
-                CleanInventoryAfterFilling();
-                Debug.Log("Filling");
-
-            }
-    }*/
 }
 

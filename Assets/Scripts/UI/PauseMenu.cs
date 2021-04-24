@@ -25,9 +25,9 @@ public class PauseMenu : MonoBehaviour
 
     private void PausingGame()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && !dialogBox.activeInHierarchy)
+        if (Input.GetKeyDown(KeyCode.Escape) && !dialogBox.activeInHierarchy)
         {
-            if(isPaused)
+            if (isPaused)
             {
                 Resume();
             }
@@ -39,13 +39,6 @@ public class PauseMenu : MonoBehaviour
 
     }
 
-    public void Resume()
-    {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        isPaused = false;
-    }
-
     private void Pause()
     {
         pauseMenuUI.SetActive(true);
@@ -53,9 +46,15 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
     }
 
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
     public void Quit()
     {
-        Debug.Log("Quit");
         Application.Quit();
     }
 
@@ -64,5 +63,4 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         inventory.Container.Clear();
     }
-
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mystic.unity
     guid: 016fc3b2281bb2749bf7e924970c8909
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: a7dc5c2fee55ec54e8c2b360eff02841
   m_configObjects: {}
